@@ -1,4 +1,0 @@
-
-# Connect to Supabase via connection pooling
-DATABASE_URL="postgresql://5325fca5f506608933b8c9374feef88e93c9e206d175eceecdc0a167769a33fc:sk_BkGqS_vHbqSro6GveyrYH@db.prisma.io:5432/postgres?sslmode=require"
-
