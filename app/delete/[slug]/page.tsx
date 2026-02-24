@@ -2,7 +2,6 @@
 
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState, use } from "react";
-import Link from "next/link";
 
 export default function Delete() {
   const router = useRouter();
