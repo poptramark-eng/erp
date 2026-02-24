@@ -20,14 +20,13 @@ export default function Create() {
     });
     const data: { message: string } = await request.json();
     const { message } = await data;
-    console.log(data);
+
     setMessage(data);
 
     setName(name);
     setEmail(email);
     setSubmitted(true);
   }
-  alert(`${message?.message}`);
 
   return (
     <form
